@@ -1,0 +1,1 @@
+[Резюме](https://mihaildenisenko.github.io/resume/)
