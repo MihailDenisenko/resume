@@ -1,0 +1,145 @@
+body {
+  width: 800px;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume {
+  margin-left: 25px;
+  padding: 15px;
+  max-width: 800px;
+}
+.resume__top {
+  display: block;
+  width: 400px;
+  max-width: 1300px;
+  position: relative;
+}
+.resumeTop {
+  display: flex;
+}
+.resumeTop__left {
+  max-width: 400px;
+}
+.about {
+  margin-top: 15px;
+}
+.FIO {
+  font-size: 36px;
+  display: block;
+}
+a {
+  color: black;
+  margin-left: 55px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.developer {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 24px;
+  color: cadetblue;
+}
+.telephone {
+  position: relative;
+}
+.telephone > a {
+  text-decoration: none;
+}
+.telephone__img {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+}
+.mailto {
+  text-decoration: none;
+  position: relative;
+}
+.email__img {
+  margin-left: 10px;
+  margin-top: 15px;
+  /* top: 5px; */
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+}
+.city {
+  position: relative;
+  text-decoration: none;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.geo__img {
+  width: 30px;
+  position: absolute;
+  left: -20px;
+  top: -5px;
+}
+.geo {
+  margin-left: 20px;
+}
+.resumeTop__right {
+  margin-left: 55px;
+  /* background-color: blueviolet; */
+}
+.resume__foto {
+  position: relative;
+  right: 0px;
+}
+.foto__img {
+  right: 0px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.resume__bottom {
+  display: flex;
+}
+.bottom__left {
+  max-width: 250px;
+}
+.basicAbout, .addInfo {
+  font-weight: 700;
+  color: rgb(0, 119, 199);
+  margin-left: 30px;
+  font-size: 24px;
+}
+.about__hr {
+  border: 1.5px rgb(0, 119, 199) solid;
+}
+.bottom__right {
+  width: 500px;
+  margin-left: 15px;
+}
+.basic__p {
+  padding-left: 15px;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.kash__p {
+  margin-top: 8px;
+  font-size: 20px;
+  margin-left: 35px;
+}
+.separ {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 3px;
+  height: 800px;
+  background-color: rgb(0, 119, 199);
+}
+.work__p a {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  font-size: 18px;
+}
+.work__p a:hover {
+  text-decoration: underline;
+}
